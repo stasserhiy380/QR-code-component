@@ -1,0 +1,45 @@
+body{
+    background-color: #D5E1EF;
+    margin: 0;
+}
+
+.qr-main{
+    background-color: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description{
+    text-align: center;
+    color: #1F314F;
+    font-family: Outfit, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.usage{
+color: var(--color-slate-500, #68778D);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+/* text-preset-2 */
+font-family: Outfit;
+font-size: var(--font-size-text-preset-2, 15px);
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 21px */
+letter-spacing: 0.2px;
+}
