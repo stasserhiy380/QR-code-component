@@ -22,6 +22,7 @@ img{
 }
 
 .description{
+    margin-top:24px;
     text-align: center;
     color: #1F314F;
     font-family: Outfit, sans-serif;
@@ -32,6 +33,7 @@ img{
 }
 
 .usage{
+    margin-top:16px;
 color: var(--color-slate-500, #68778D);
 text-align: center;
 font-feature-settings: 'liga' off, 'clig' off;
